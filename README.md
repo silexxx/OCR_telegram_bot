@@ -1,2 +1,2 @@
-# OCR_telegram_bot
-OCR telegram bot
+# Ocrbot
+Optical Character Recognition (OCR) implementation in Telegram Bot.
