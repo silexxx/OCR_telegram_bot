@@ -1,1 +1,1 @@
-worker: python3 ocrbot.py
+worker: python ocrbot.py
