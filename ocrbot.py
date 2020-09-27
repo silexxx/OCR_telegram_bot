@@ -28,7 +28,7 @@ def search(bot, update):
         output=pytesseract.image_to_string(Image.open('testing.jpg'))
         update.message.reply_text('`'+str(output)+'`',parse_mode=ParseMode.MARKDOWN,reply_to_message_id=update.message.message_id)
     except Exception as e:
-        update.message.reply_text("oooops cannot find.")
+        update.message.reply_text(e)
         try:
             os.remove('testing.jpg')
         except Exception:
