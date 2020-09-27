@@ -40,6 +40,8 @@ def error(bot, update, error):
 
 def main():
     """Start the bot."""
+    #ocr_bot_token="your token then comment below line"
+    
     ocr_bot_token=os.environ.get("BOT_TOKEN", "")
     updater = Updater(ocr_bot_token)
     dp = updater.dispatcher
