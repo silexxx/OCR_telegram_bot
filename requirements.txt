@@ -1,5 +1,4 @@
 telegram
 python-telegram-bot
 pytesseract==0.3.6
-tesseract-ocr
 tesseract
